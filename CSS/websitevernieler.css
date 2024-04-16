@@ -1,10 +1,9 @@
-.videoContainer{
+.videoContainer {
     width: 100%;
     height: 100%;
-    left: 0;
 }
 
-.ad1{
+.ad1 {
     position: absolute;
     top: 0;
     z-index: 5;
@@ -15,17 +14,41 @@
     max-height: 40%;
 
     left: 0;
-
-
 }
 
-.blackBox{
+.blackBox {
     position: absolute;
     background-color: black;
     top: 0;
     height: 40vh;
     width: 100vw;
     left: 0;
-
     z-index: 0;
+}
+
+.siteTitle{
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    text-align: center;
+
+}
+
+
+.backgroundLeft{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    left: 0;
+    top: 0;
+}
+
+
+.backgroundRight{
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    right: 0;
+    top: 0;
 }
