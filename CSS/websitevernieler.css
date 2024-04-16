@@ -29,7 +29,7 @@
 .siteTitle{
     font-size: 30px;
     position: absolute;
-    bottom: 0;
+    top: 300px;
     left: 20%;
     text-align: center;
 
@@ -51,4 +51,61 @@
     width: 10%;
     right: 0;
     top: 0;
+}
+
+.Marlon{
+    position: absolute;
+    margin: 350px;
+    margin-left: 150px;
+    width: 330px;
+}
+
+.textMarlon{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 150px;
+}
+
+.textMarlon2{
+    position: absolute;
+    margin-top: 575px;
+    margin-left: 150px;
+}
+
+.Rian{
+    position: absolute;
+    margin: 350px;
+    margin-left: 525px;
+    width: 330px;
+}
+
+.textRian{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 500px;
+}
+
+.textRian2{
+    position: absolute;
+    margin-top: 575px;
+    margin-left: 500px;
+}
+
+.WaySide{
+    position: absolute;
+    margin: 350px;
+    margin-left: 900px;
+    width: 330px;
+}
+
+.textWaySide{
+    position: absolute;
+    margin-top: 525px;
+    margin-left: 900px;
+}
+
+.textWaySide2{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 900px;
 }
