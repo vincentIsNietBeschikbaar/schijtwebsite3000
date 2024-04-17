@@ -44,7 +44,7 @@
 .siteTitle {
     font-size: 50px;
     position: absolute;
-    top: 300px;
+    top: 200px;
     left: 20%;
     text-align: center;
     font-family:  Papyrus;
@@ -136,4 +136,27 @@ body {
     margin-top: 200px;
     margin-left: 200px;
     background-color: aliceblue;
+}
+
+
+.buttonBar{
+    background-color: orangered;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -100px;
+    width: 100px;
+    height: 300px;
+    min-height: 300vh;
+    height: 100%;
+}
+
+.linkOnBar{
+    position: relative;
+    margin-bottom: 50vh;
+    margin-top: 550px;
+    color: crimson;
+    text-decoration: none;
+    background-color: burlywood;
+    border-radius: 10px;
 }
