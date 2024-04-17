@@ -109,3 +109,41 @@
     margin-top: 550px;
     margin-left: 900px;
 }
+
+.Cowboy{
+    position: absolute;
+    margin: 650px;
+    margin-left: 150px;
+    width: 330px;
+}
+
+.textCowboy{
+    position: absolute;
+    margin-top: 835px;
+    margin-left: 150px;
+}
+
+.textCowboy2{
+    position: absolute;
+    margin-top: 860px;
+    margin-left: 150px;
+}
+
+.JeanPierre{
+    position: absolute;
+    margin: 650px;
+    margin-left: 500px;
+    width: 330px;
+}
+
+.textJP{
+    position: absolute;
+    margin-top: 835px;
+    margin-left: 500px;
+}
+
+.textJP2{
+    position: absolute;
+    margin-top: 860px;
+    margin-left: 500px;
+}
