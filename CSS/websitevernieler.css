@@ -16,6 +16,21 @@
     left: 0;
 }
 
+.ad2{
+    position: fixed;
+    width: 20%;
+    height: auto;
+    z-index: 3002;
+    margin-top: 0;
+
+    top: 80%; /* Plaats het verticaal in het midden van het scherm */
+    right: 0px; /* Afstand vanaf de linkerkant van het scherm */
+    padding: 10px; /* Ruimte binnenin de advertentie */
+    transform: translateY(-50%); /* Centreer verticaal */
+    border-radius: 50px;
+    visibility: hidden;
+}
+
 .blackBox {
     position: absolute;
     background-color: black;
@@ -56,8 +71,9 @@
 
 
 .ourProjectsText {
+    position: relative;
     position: 600px;
-    margin-top: 400px;
+    margin-top: 700px;
     margin-left: 500px;
     z-index: 3000;
 }
@@ -84,27 +100,23 @@ body {
 .project1{
     position: absolute;
     text-align: center;
-    margin-top: 0px;
-    margin-top: 500px;
+    margin-top: 200px;
     width: 100px;
-    height: 100px;
 }
 
 .project2{
     position: absolute;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 200px;
     width: 100px;
-    height: 100px;
     margin-left: 350px;
 }
 
 .project3{
     position: absolute;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 200px;
     width: 100px;
-    height: 100px;
     margin-left: 700px;
 }
 
