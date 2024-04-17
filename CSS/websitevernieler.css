@@ -26,7 +26,7 @@
     z-index: 0;
 }
 
-.siteTitle{
+.siteTitle {
     font-size: 30px;
     position: absolute;
     top: 300px;
@@ -36,7 +36,7 @@
 }
 
 
-.backgroundLeft{
+.backgroundLeft {
     position: absolute;
     height: 100%;
     width: 10%;
@@ -45,7 +45,7 @@
 }
 
 
-.backgroundRight{
+.backgroundRight {
     position: absolute;
     height: 100%;
     width: 10%;
@@ -53,97 +53,92 @@
     top: 0;
 }
 
-.Marlon{
+.Marlon {
     position: absolute;
     margin: 350px;
     margin-left: 150px;
     width: 330px;
 }
 
-.textMarlon{
+.textMarlon {
     position: absolute;
     margin-top: 550px;
     margin-left: 150px;
 }
 
-.textMarlon2{
+.textMarlon2 {
     position: absolute;
     margin-top: 575px;
     margin-left: 150px;
 }
 
-.Rian{
+.Rian {
     position: absolute;
     margin: 350px;
     margin-left: 525px;
     width: 330px;
 }
 
-.textRian{
+.textRian {
     position: absolute;
     margin-top: 550px;
     margin-left: 500px;
 }
 
-.textRian2{
+.textRian2 {
     position: absolute;
     margin-top: 575px;
     margin-left: 500px;
 }
 
-.WaySide{
+.WaySide {
     position: absolute;
     margin: 350px;
     margin-left: 900px;
     width: 330px;
 }
 
-.textWaySide{
+.textWaySide {
     position: absolute;
     margin-top: 525px;
     margin-left: 900px;
 }
 
-.textWaySide2{
+.textWaySide2 {
     position: absolute;
     margin-top: 550px;
     margin-left: 900px;
 }
 
-.Cowboy{
-    position: absolute;
-    margin: 650px;
-    margin-left: 150px;
-    width: 330px;
-}
-
-.textCowboy{
-    position: absolute;
-    margin-top: 835px;
-    margin-left: 150px;
-}
-
-.textCowboy2{
-    position: absolute;
-    margin-top: 860px;
-    margin-left: 150px;
-}
-
-.JeanPierre{
-    position: absolute;
-    margin: 650px;
+.ourProjectsText {
+    position: 600px;
+    margin-top: 400px;
     margin-left: 500px;
-    width: 330px;
+    z-index: 3000;
+
 }
 
-.textJP{
-    position: absolute;
-    margin-top: 835px;
-    margin-left: 500px;
+body {
+    background-image: url("../background/backgroundArt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.textJP2{
-    position: absolute;
-    margin-top: 860px;
-    margin-left: 500px;
+.whitePage {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) min-content;
+    grid-template-rows: max-content;
+}
+
+.mainPage {
+    margin-left: 250px;
+    margin-top: 35vh;
+    background-color: white;
+    border-radius: 3px;
+    min-height: 300vh;
+    height: 100%;
+    width: 70vw;
+    padding: 24px 36px;
+    position: relative;
+    z-index: -1;
 }
